@@ -1,0 +1,23 @@
+nav{
+    background-color: #ce7171;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3rem;
+        li{
+            padding: 0.5rem 1rem;
+            a{
+                font-family: 'Playfair Display', serif;
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: 500;
+                letter-spacing: 0.05rem;
+                &:hover{
+                    color: #680c0c;
+                    transition: 0.3s linear all;
+                    text-shadow: 0 2px 8px rgb(104 12 12 / 5%);
+                }
+            }
+        }
+    }
+}

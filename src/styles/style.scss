@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.pagecont{
+    min-height: 100vh;
+}
+.moreButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    button{
+        padding: 0.25rem 0.5rem;
+        font-size: 1.3rem;
+        letter-spacing: 0.02rem;
+        color: #fff;
+        margin-bottom: 50px;
+        background-color: #ce7171;
+        border: 2px solid #ce7171;
+        
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+@import "./nav";
+@import "./search";
+@import "./picture";
+@import "./footer";

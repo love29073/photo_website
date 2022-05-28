@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pagecont {
+  min-height: 100vh;
+}
+
+.moreButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.moreButton button {
+  padding: 0.25rem 0.5rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.02rem;
+  color: #fff;
+  margin-bottom: 50px;
+  background-color: #ce7171;
+  border: 2px solid #ce7171;
+}
+.moreButton button:hover {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #ce7171;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+nav ul li a {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+nav ul li a:hover {
+  color: #680c0c;
+  transition: 0.3s linear all;
+  text-shadow: 0 2px 8px rgba(104, 12, 12, 0.05);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.search input {
+  min-height: 40px;
+  padding: 0.35rem;
+  border: 3px solid #ce7171;
+}
+.search input:active, .search input:focus {
+  outline: none;
+}
+.search button {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  min-height: 40px;
+  margin-left: -1px;
+  padding: 0.25rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.05rem;
+  background-color: #ce7171;
+  border: 2px solid #ce7171;
+}
+.search button:hover {
+  cursor: pointer;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+.pictures .picture {
+  padding: 1rem;
+  width: 400px;
+}
+.pictures .picture .photographer {
+  color: #fff;
+  background-color: #7194ce;
+  padding: 0.8rem;
+  display: inline-block;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 40vh;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.5s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+  color: #999;
+  background-color: #f3f1f1;
+}/*# sourceMappingURL=style.css.map */

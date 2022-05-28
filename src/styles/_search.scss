@@ -1,0 +1,30 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+
+    input{
+        min-height: 40px;
+        padding: 0.35rem;
+        border: 3px solid #ce7171;
+        &:active,
+        &:focus{
+            outline: none;
+        }
+    }
+    button{
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        min-height: 40px;
+        margin-left: -1px;
+        padding: 0.25rem;
+        font-size: 1.3rem;
+        letter-spacing: 0.05rem;
+        background-color: #ce7171;
+        border: 2px solid #ce7171;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
